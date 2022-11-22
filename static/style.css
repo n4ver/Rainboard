@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Radiance';
+    src:url("radiance.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;
+  }
+@font-face {
+  font-family: 'Radiance-SemiBold';
+  src:url("radiance-semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: Radiance, Noto Sans, arial, helvetica, sans-serif;
+  line-height: normal;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: var(--body-bg);
+}
