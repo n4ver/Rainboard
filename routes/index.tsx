@@ -1,5 +1,5 @@
 import { asset, Head } from "$fresh/runtime.ts";
-import { Header } from "../components/Header.tsx";
+import Header from "../islands/Header.tsx";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {

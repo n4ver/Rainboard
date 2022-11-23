@@ -1,5 +1,5 @@
 // routes/about.tsx
-import { Header } from "../components/Header.tsx";
+import Header from "../islands/Header.tsx";
 import { asset } from "$fresh/runtime.ts";
 
 
