@@ -1,5 +1,5 @@
-# fresh project
-
+# Rainboard
+A dashboard for undetermined things
 ### Usage
 
 Start the project:
