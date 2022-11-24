@@ -1,5 +1,6 @@
 // routes/stats/[slug].tsx
 import Header from "../../islands/Header.tsx";
+import Log from "../../islands/Log.tsx";
 import { asset } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
 
@@ -12,7 +13,7 @@ export default function StatsPage(props: PageProps) {
       </head>
       <main>
         <Header />
-        <p>Log ID: {slug}</p>
+        <Log slug={slug}/>
       </main>
     </>
   );
